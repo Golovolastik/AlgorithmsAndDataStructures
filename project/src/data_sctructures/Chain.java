@@ -25,4 +25,12 @@ class Chain {
         }
         System.out.println();
     }
+
+    public void insertAfter(int after, int element, Chain header){
+        int idx = 0;
+        Chain temp = new Chain(element, header.next);
+        header.next = temp;
+
+    }
+
 }

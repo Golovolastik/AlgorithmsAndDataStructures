@@ -13,6 +13,7 @@ public class Test {
         head.add(4, head);
         head.add(8, head);
         //System.out.println("Hello");
+        head.insertAfter(0, 6, head);
         head.printChain(head);
     }
 
